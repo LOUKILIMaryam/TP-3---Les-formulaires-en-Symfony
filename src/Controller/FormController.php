@@ -20,7 +20,7 @@ final class FormController extends AbstractController
         $form->handleRequest($request);
         if ($form->isSubmitted() && $form->isValid()) {
             $data = $form->getData();
-            // Ici tu peux traiter les données : ajouter au panier, sauvegarder en BDD, etc.
+        
             dd($data); // debug pour voir les valeurs reçues
         }
 
