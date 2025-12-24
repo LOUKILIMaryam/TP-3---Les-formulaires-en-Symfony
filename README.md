@@ -7,6 +7,7 @@ Création d’un nouveau projet Symfony.
 Premier lancement du serveur local avec le port par défaut.
 Erreur rencontrée : le port était déjà occupé.
 Solution : changement du port pour accéder au projet via :
+
 http://localhost:8080/
 2.2 Création du contrôleur
 Création d’un contrôleur nommé FormController pour gérer l’affichage et la soumission du formulaire.
